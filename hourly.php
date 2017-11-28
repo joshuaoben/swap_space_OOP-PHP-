@@ -6,7 +6,7 @@ class Hourly extends Employee
 		$this->_name = $name;
 		$this->_designation = $designation;
 		if ($hours > 40) {
-			$addition = ($hours - 40) * $pay;
+			$addition = 10000;
 			$this->_pay = (40 * $pay) + $addition;
 		}
 		else {
