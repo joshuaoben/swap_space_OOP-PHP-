@@ -7,16 +7,16 @@ abstract class Employee
 	protected $_type;
 	protected $_pay;
 
-	function getName(){
+	public function getName(){
 		return $this->_name;
 	}
-	function getDesignation(){
+	public function getDesignation(){
 		return $this->_designation;
 	}
-	function getType(){
+	public function getType(){
 		return $this->_type;
 	}
-	function getPay(){
+	public function getPay(){
 		return $this->_pay;
 	}
 
